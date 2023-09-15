@@ -2,20 +2,15 @@ import styled from '@emotion/styled';
 
 export const SectionContainer = styled.section`
   margin: auto;
-  padding: 20px;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  gap: 14px;
+  padding: 26px 0;
+
+  background-color: #f9f9f9;
 `;
 
 export const Title = styled.h2`
-  margin: 0;
-  cursor: pointer;
-  transition: text-shadow 0.3s ease-in-out;
+  font-weight: 700;
+  font-size: 34px;
 
-  &:hover {
-    text-shadow: 0 0 5px yellow; 
-    font-size: 28px;
-  }
+  text-align: center;
+  margin: 0;
 `;

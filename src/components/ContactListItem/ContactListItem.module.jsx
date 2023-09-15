@@ -1,42 +1,100 @@
 import styled from '@emotion/styled';
+import { FaUser, FaPhoneAlt, FaUserMinus } from 'react-icons/fa';
+
+export const UserIcon = styled(FaUser)`
+  padding: 8px;
+
+  width: 20px;
+  height: 20px;
+
+  fill: #fabb18;
+
+  border-radius: 12px;
+
+  background-color: rgba(250, 187, 24, 0.1);
+`;
+
+export const PhoneIcon = styled(FaPhoneAlt)`
+  padding: 8px;
+
+  width: 20px;
+  height: 20px;
+
+  fill: #fabb18;
+
+  border-radius: 12px;
+
+  background-color: rgba(250, 187, 24, 0.1);
+`;
+
+export const UserDeletedIcon = styled(FaUserMinus)`
+  width: 20px;
+  height: 20px;
+
+  fill: #fabb18;
+`;
 
 export const ContactItem = styled.li`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: background-color 0.3s ease-in-out; 
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
 
-  &:hover {
-    background-color: #f9e14e; 
-  }
+  padding: 20px 20px;
+
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
 `;
 
 export const ContactName = styled.p`
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
   margin: 0;
   font-weight: 500;
-  color: #333; 
 `;
 
-export const ContactNumber = styled.span`
-  margin-left: 10px;
-  color: #777; 
+export const ContactNumber = styled.p`
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  margin: 0;
+  /* margin-left: 10px; */
 `;
 
 export const Button = styled.button`
-  margin: 8px;
-  padding: 4px 14px;
-  border-radius: 5px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 0.563em 1em;
+  background-color: #000000;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(250, 187, 24, 0.1);
+  border-radius: 8px;
+
   cursor: pointer;
-  background-color: #85d3ff;
-  color: #fff;
-  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; 
 
-  &:hover {
-    background-color: #54a6c2;
-    transform: scale(1.1); 
-  }
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:active {
-    background-color: #207b9b;
+  :hover,
+  :focus {
+    color: #000000;
+    background-color: rgba(250, 187, 24, 0.1);
+    border: 1px solid #000000;
+
+    > svg {
+      fill: #000000;
+    }
   }
 `;
