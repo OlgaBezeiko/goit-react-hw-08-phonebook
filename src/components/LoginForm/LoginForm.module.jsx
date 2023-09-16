@@ -21,9 +21,9 @@ export const Input = styled.input`
   padding: 22px 36px;
 
   color: #000000;
-  background: #efefef;
+  background: #c3c3c3;
   border-radius: 18px;
-  border: 1px solid #efefef;
+  border: 1px solid #c3c3c3;
 
   :placeholder {
     color: #757575;
@@ -72,6 +72,6 @@ export const LoggedLink = styled(NavLink)`
 
   :hover,
   :focus {
-    color: #fabb18;
+    color: #00BFFF;
   }
 `;

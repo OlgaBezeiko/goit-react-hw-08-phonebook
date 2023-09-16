@@ -5,7 +5,7 @@ export const AddUserIcon = styled(FaUserPlus)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #00BFFF;
 `;
 export const ContentPageContainer = styled.div`
   padding: 38px 48px;

@@ -41,7 +41,7 @@ export const UserAvatar = styled.div`
   width: 58px;
   height: 58px;
 
-  background-color: #efefef;
+  background-color: #c3c3c3;
   border-radius: 14px;
 `;
 export const LogOutBtn = styled.button`
@@ -54,7 +54,7 @@ export const LogOutBtn = styled.button`
   color: #ffffff;
   background-color: #000000;
 
-  border: 1px solid #fabb18;
+  border: 1px solid #00BFFF;
   border-radius: 14px;
 
   cursor: pointer;

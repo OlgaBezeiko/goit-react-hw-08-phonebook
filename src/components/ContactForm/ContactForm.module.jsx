@@ -5,7 +5,7 @@ export const AddUserIcon = styled(FaUserPlus)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #00BFFF;
 `;
 
 export const Form = styled.form`
@@ -28,7 +28,7 @@ export const Input = styled.input`
   padding: 22px 36px;
 
   color: #000000;
-  background: #efefef;
+  background: c3c3c3;
   border-radius: 18px;
   border-style: none;
 

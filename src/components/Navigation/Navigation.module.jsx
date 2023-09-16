@@ -11,7 +11,7 @@ export const Logo = styled(NavLink)`
 
   color: #000000;
   > span {
-    color: #fabb18;
+    color: #00BFFF;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -20,7 +20,7 @@ export const Logo = styled(NavLink)`
 
   :hover,
   :focus {
-    color: #fabb18;
+    color: #00BFFF;
     > span {
       color: #000000;
     }

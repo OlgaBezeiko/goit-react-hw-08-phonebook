@@ -7,9 +7,9 @@ export const UserIcon = styled(FaUser)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #00BFFF;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
   background-color: rgba(250, 187, 24, 0.1);
 `;
@@ -20,9 +20,9 @@ export const PhoneIcon = styled(FaPhoneAlt)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #00BFFF;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
   background-color: rgba(250, 187, 24, 0.1);
 `;
@@ -31,7 +31,7 @@ export const UserDeletedIcon = styled(FaUserMinus)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #00BFFF;
 `;
 
 export const ContactItem = styled.li`
